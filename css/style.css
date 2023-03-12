@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter&family=Montserrat&family=Open+Sans&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style-type: none; 
+    outline: none; 
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100%; 
+    background: url("../icons/Rectangle\ 1@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{ 
+    width: 100%; 
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 30px; 
+} 
+.header__container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.header__menu { 
+    display: flex; 
+    column-gap: 50px;
+} 
+.header__menu > li > a { 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+} 
+
+/* 1 section */
+.item__title{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 86%
+}
+.item__container{
+    display: flex;
+}
+.button__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+}
+.btn{
+    width: 260px;
+    height: 60px;
+    background: #D8B152;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+/* 2nd section */
+.service__title{
+    font-weight: 600;
+    padding-top: 120px;
+    font-size: 46px;
+    line-height: 63px;
+    color: #424242;
+    padding-bottom: 60px;
+}
+.service__block:nth-child(1){
+    background: url("../icons/Rectangle\ 4.png");
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__block:nth-child(2){
+    background: url("../icons/Rectangle\ 16.png");
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__block:nth-child(3){
+    background: url("../icons/Rectangle\ 15.png");
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__block__title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.service__all__blocks{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+/* 3rd section */
+.fline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.inst__img{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+    padding-top: 50px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    background: #202020;
+}
+.footer__container{
+    display: flex;
+    padding-bottom: 120px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 140px;
+}
+.info__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.info__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.footer__information{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.contact__number{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.contact__text{
+    display: flex;
+    column-gap: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+.icon__one{
+    width: 50px;
+    height: 50px;
+    background: #D8B152;
+    border: 1px solid #D8B152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #D8B152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social__icons{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 20px;
+}
